@@ -1,0 +1,52 @@
+node_modules
+bin/
+*.local.*
+go.mod
+go.sum
+.env.local
+.env
+secrets.local.txt
+secrets.txt
+/secrets/
+secrets/
+logs/
+public/
+*.log
+go.sum
+**.smbcredentials**
+**.cifscreds**
+**.venv**
+.ipynb_checkpoints
+/__pycache__/
+.venv
+.virt
+.virtenv
+# .log
+.virt
+*.pyc
+.idea/
+.DS_Store
+.ipynb_checkpoints
+*__pycache__*
+.venv/
+.virtenv/
+*.log
+.virt/
+venv
+.env
+.env.local
+.DS_Store
+**/node_modules
+#do not exclude the entire public/ folder...
+/dist
+# /public
+/server/application/static/*
+api-server/src/public/*
+web-server/server/src/public/*
+frontend/server/src/public/*
+backend/public/receive/*
+backend/public/send/*
+
+# En proyectos reales conviene ignorar datasets (.xlsx, .csv grandes, dumps).
+# En ESTE repo académico el Excel de data/ SÍ se versiona para que el profesor
+# pueda clonar y ejecutar el pipeline. No tomarlo como práctica de producción.

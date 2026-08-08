@@ -1,0 +1,26 @@
+{
+  "rows_raw": 15587,
+  "rows_clean": 15292,
+  "duplicates_removed": 295,
+  "n_analysis": 14512,
+  "correlation": -0.5402422998413077,
+  "committed_hours": 24.0,
+  "sat_mean": 4.11438809261301,
+  "sat_below": 4.33828296559657,
+  "sat_above": 3.6817538896746815,
+  "n_below": 9563,
+  "n_above": 4949,
+  "tiempo_mean": 21.329100055126794,
+  "tiempo_median": 18.8,
+  "tiempo_p90": 38.2,
+  "period": [
+    "2024-07-01",
+    "2026-06-30"
+  ],
+  "figures": [
+    "C:\\Projects\\Diplomado\\Diplomado\\analisis-servicios-tecnicos\\reports\\figures\\01_satisfaccion_por_demora.png",
+    "C:\\Projects\\Diplomado\\Diplomado\\analisis-servicios-tecnicos\\reports\\figures\\02_demora_por_ciudad.png",
+    "C:\\Projects\\Diplomado\\Diplomado\\analisis-servicios-tecnicos\\reports\\figures\\03_correlacion_demora_satisfaccion.png",
+    "C:\\Projects\\Diplomado\\Diplomado\\analisis-servicios-tecnicos\\reports\\figures\\04_heatmap_ciudad_demora.png"
+  ]
+}

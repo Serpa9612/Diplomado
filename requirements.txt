@@ -1,0 +1,22 @@
+# Data Analysis & Manipulation
+pandas>=2.1.0
+numpy>=1.26.0
+openpyxl>=3.1.2
+
+# Data Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Database & ORM (opcional / extensión profesional)
+SQLAlchemy>=2.0.25
+psycopg[binary]>=3.1.18
+
+# Web Framework & API (opcional / extensión profesional)
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic-settings>=2.2.0
+
+# Environment, testing & PDF
+python-dotenv>=1.0.1
+pytest>=8.0.0
+reportlab>=4.0.0

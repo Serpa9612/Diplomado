@@ -1,0 +1,44 @@
+=== LOG DE LIMPIEZA ===
+Filas antes: 15587
+Duplicados eliminados: 295
+Filas después: 15292
+'sin dato' / no numéricos en Tiempo_respuesta_horas: 91
+'pendiente' / no numéricos en Valor_servicio: 34
+Tiempo_respuesta_horas == 999 → NaN: 53
+Satisfaccion fuera de 1-5 → NaN: 42
+Antiguedad_tecnico_meses < 0 → NaN: 26
+Valor_servicio < 0 → NaN: 34
+
+Nulos antes:
+  ID_servicio: 0
+  Fecha_solicitud: 0
+  Ciudad: 0
+  Tipo_servicio: 0
+  Canal: 0
+  Tecnico_id: 0
+  Antiguedad_tecnico_meses: 0
+  Tiempo_respuesta_horas: 148
+  Duracion_servicio_min: 122
+  Costo_repuestos: 286
+  Valor_servicio: 0
+  Reproceso: 0
+  Satisfaccion: 457
+  Estado: 0
+Nulos después:
+  ID_servicio: 0
+  Fecha_solicitud: 0
+  Ciudad: 0
+  Tipo_servicio: 0
+  Canal: 0
+  Tecnico_id: 0
+  Antiguedad_tecnico_meses: 26
+  Tiempo_respuesta_horas: 292
+  Duracion_servicio_min: 121
+  Costo_repuestos: 284
+  Valor_servicio: 68
+  Reproceso: 0
+  Satisfaccion: 488
+  Estado: 0
+
+Decisión vacíos: no se imputaron Tiempo_respuesta_horas ni Satisfaccion (variables clave del análisis). Se dejan NaN y se filtran en el análisis.
+Valor_servicio = 0 en Garantía se conserva como dato válido de negocio.
